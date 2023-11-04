@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     //fetch
 	$.post({
-		url: `${HOST}/api/v1/places_search`,
+		url: `http://localhost:5001/api/v1/places_search`,
 		data: JSON.stringify({}),
 		headers: {
 			"Content-Type": "application/json",
